@@ -1,0 +1,79 @@
+
+- Queries of the portfolio project : Sales dataset 
+
+-- --------------------------------------------------------------------------------------------------------------------
+# General informations about the dataset 
+-- --------------------------------------------------------------------------------------------------------------------
+
+# 1- Categories of products that were sold 
+# 2- How many types of products per product line do we have 
+# 3- Did the number of products available change through the year ? 
+
+-- ----------------------------------------------------------------------------------------------------------------------
+# Summaries
+-- --------------------------------------------------------------------------------------------------------------------
+
+# 4- Summary table for the total sales, total quantities ordered, and total orders 
+     -- a) Per year 
+     -- b) By month per year 
+# 5- Global summary of the the sales, quantities ordered, and oreders numbers for the three years (totals + averages) 
+
+-- ----------------------------------------------------------------------------------------------------------
+# Products + Productline 
+-- --------------------------------------------------------------------------------------------------------------------
+
+# 6- Gloabl sales per productline for all years
+# 7- Total sales, highest sale, quantities orders, and orders per productline per year 
+     -- For March 2004
+# 8- Number of sold products per productline for each productcode 
+# 9- Total quantity sold per product per year 
+     -- For the products S12_1666 and S18_1662
+# 10- What is the global number of quantities sold for all productlines for 2003 in january, juin, and december (sub-query) 
+# 11- Most expensive product
+# 12- Most sold product per productline for november 2004
+      -- a) Using FIRST_VALUE()
+      -- b) Using LAST_VALUE() but for specifically the month of november 2004
+# 13- Least sold product per productline per year
+
+-- --------------------------------------------------------------------------------------------------------------------
+# Orders
+-- --------------------------------------------------------------------------------------------------------------------
+
+# 14- Ordernumber with its orders and total of sales 
+# 15- Order with the highest sale 
+# 16- What is the 4th highest sales ordernumber 
+      -- Or without PRODUCTCODE
+      -- For 2005 for january, march 
+# 17-  details of the order 10159 country, orders, quantities, ..
+
+-- --------------------------------------------------------------------------------------------------------------------
+# Some descriptive statistics 
+-- --------------------------------------------------------------------------------------------------------------------
+
+# 18- Highest solding month per year 
+# 19- Perecntages of productline share of orders and sales (JOIN + subquery)
+# 20- average sales  
+     -- a) Per year 
+     -- b) Per month 
+           -- a) Using subqueries only
+           -- b) Using ctes 
+           -- c) Using a TEMPORARY TABLE 
+# 21- products sales that are less or more than the averag sales per year (use fct or procedure) or if or case
+# 22- labeling months according to wether the sales made were higher or lower than the average month 
+      -- Labels are : Above average sales, Below average sales
+# 23- CUME_DIST FOR PRODUCTS
+
+-- --------------------------------------------------------------------------------------------------------------------
+# Countries
+-- --------------------------------------------------------------------------------------------------------------------
+
+# 24- Summary for countries 
+# 25- General ranking of the countries per year based on the total sales 
+# 26- Country with the highest number of orders, sales, quantities orderd
+# 27- Country with the least ones with cte 
+# 28- NTILE for countries
+      -- NTILES BUT WITH % OR CUME_DIST (TOP SALES, LOW SALES, ..) MAYBE WITH PRODUCTS
+# 29- Percentages for countries (yearly too) 
+# 30- percent rank for France 
+      -- Using cumulative distribution
+
