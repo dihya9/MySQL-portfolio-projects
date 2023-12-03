@@ -1,0 +1,38 @@
+
+# Querie of the portfolio project : Crash 2022 dataset 
+
+# 1- Temporary table to only select the columns needed into a table crash_2022
+
+# 2- Breaking down the column `Crash Date/Time` into two additional columns `Crash Date` and `Crash time` 
+# 3- Total number of crashes reported in 2022 
+# Number of recorded crashes per month 
+# Average number of crashes per month 
+# Average number of daily recoreded carshes per month
+# Number of crashes recorded per each Agency in 2022 from the highest to the lowest with percentages 
+# Monthly recorded crashes per agency and which agency recorded the highest and lowest crashes numbers per month 
+# Monthly recorded crashes for agency 'Rockville Police Departme'
+# Distribution of report types and percentages 
+# Adding an `ACRS Report Type` derived column to tell if a crash was fatal or not
+# Inserting values into the new added column 
+# Number of fatal and non fatal reported crashes with percentages 
+# Agencies that recorded fatal crashes with the numbers
+# Number of fatal and non fatal crashes reported per each agency 
+# How many carshes were recorded by the agency 'Montgomery County Police' between the dates of '2022-02-15' AND '2022-07-10'
+# 5 dates on which the highest numbers of crashes were recorded 
+# Day on which the most number of crashes were recorded 
+# Day on which the most number of crashes were recorded by fatality value
+# Time frame where the most accidents happened 
+    -- Number of total accidents recorded at the same hour
+    -- Average number of crashes per hour
+    -- Labeling frames of time (in hours) according to the number of crashes recorded per each hour
+    -- Four time frames can be drawn
+# Ranking of hours according to the number of 'Fatal' type crashes recorded 
+# Route type with the highest number of crashes
+# Collision type ranking according to fatality risk 
+  -- Fatal
+  -- Non Fatal
+# Percentage of crashes according to the driver's responsibilty in a crash 
+# Number of cashes due to some type of illegal substance intake or presence with percetages
+# Cumulative distribution of the number of crashes where some kind of illegal substance was involved
+# Number and percentage of crashes registered per vehicle body type 
+
